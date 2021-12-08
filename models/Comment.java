@@ -1,6 +1,6 @@
 package models;
 
-public class Comment {
+public class Comment extends Subject{
     private String innerText;
 
     public String getText() {
