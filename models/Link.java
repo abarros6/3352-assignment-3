@@ -2,14 +2,16 @@ package models;
 
 public class Link extends Content {
 
-    private String link;
-
-    public String getTextValue() {
-        return link;
+    public Link(String content) {
+        super(content);
     }
 
-    public void setTextValue(String val) {
-        this.link = val;
+    public String getLink() {
+        return content;
+    }
+
+    public void setLink(String val) {
+        this.content = val;
     }
 
 }
