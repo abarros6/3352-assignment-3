@@ -2,14 +2,16 @@ package models;
 
 public class EmbeddedContent extends Content {
 
-    private String embed;
-
-    public String getTextValue() {
-        return embed;
+    public EmbeddedContent(String content) {
+        super(content);
     }
 
-    public void setTextValue(String val) {
-        this.embed = val;
+    public String getEmbeddedContent() {
+        return content;
+    }
+
+    public void setEmbeddedContent(String val) {
+        this.content = val;
     }
 
 }
