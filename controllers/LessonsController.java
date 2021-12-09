@@ -11,9 +11,9 @@ public class LessonsController {
         view.show();
     }
 
-    public void updateModel(String courseNameNumber) {
+    public void updateModel(String newContent) {
 
-        model.setContent(courseNameNumber);
+        model.setContent(newContent);
         
         view.show();
     }
