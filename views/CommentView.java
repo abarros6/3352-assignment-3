@@ -18,7 +18,7 @@ public class CommentView extends models.Observer {
 
     public void onCommentUpdate(){
         String newCommentInfo = "";
-        //this.controller.updateModel(newCommentInfo);
+        this.controller.updateModel(newCommentInfo);
     }
 
     public void show() {

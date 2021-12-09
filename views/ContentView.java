@@ -17,7 +17,7 @@ public class ContentView extends models.Observer {
 
     public void onContentUpdate() {
         String newContentInfo = "";
-        // this.controller.updateModel(newContentInfo);
+        this.controller.updateModel(newContentInfo);
     }
 
     public void show() {
