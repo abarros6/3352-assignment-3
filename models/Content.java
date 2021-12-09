@@ -1,6 +1,6 @@
 package models;
 
-public abstract class Content {
+public abstract class Content extends Subject {
 
     protected String content;
 
