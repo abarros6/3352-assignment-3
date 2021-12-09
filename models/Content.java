@@ -4,6 +4,8 @@ public abstract class Content extends Subject {
 
     protected String content;
 
+    public Content(){}
+    
     public Content(String content) {
         this.content = content;
     }
